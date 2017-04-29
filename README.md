@@ -26,3 +26,4 @@ Windows ring 0 shellcode is being crafted so that instead of DoublePulsar, the t
 - Equation Group
 - skape
 - Stephen Fewer
+- Luke Jennings
