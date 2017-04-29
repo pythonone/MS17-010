@@ -19,6 +19,8 @@ Windows ring 0 shellcode is being crafted so that instead of DoublePulsar, the t
 ### Credits
 - @zerosum0x0
 - @jennamagius
+- @The_Naterz
+- @Aleph___Naught
 - @nixawk
 
 ### Acknowledgements
