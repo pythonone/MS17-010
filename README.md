@@ -24,10 +24,10 @@ Windows ring 0 shellcode is being crafted so that instead of DoublePulsar, the t
 - @The_Naterz
 - @Aleph___Naught
 - @nixawk
+- @JukeLennings (Countercept)
 
 ### Acknowledgements
 - Shadow Brokers
 - Equation Group
 - skape
 - Stephen Fewer
-- Luke Jennings
