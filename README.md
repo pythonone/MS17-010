@@ -9,10 +9,10 @@ You may remember when we improved the ExtraBacon exploit. https://github.com/Ris
 There is a Metasploit scanner and a Python port. The scanners are able to use uncredentialed information leakage to determine if the MS17-010 patch is installed on a host. If it is not installed, it will also check for a DoublePulsar infections.
 
 ## Exploits
-There is a Python script and a replay file that has reliably been shown to infect Windows Server 2008 R2 SP1 with DoublePulsar.
+There is a Python script that can reliably infect Windows Server 2008 R2 SP1 with DoublePulsar.
 
 ## Payloads
-Windows ring 0 shellcode is being crafted so that instead of DoublePulsar, the transition from ring 0 to ring 3 and running usermode payloads is done in a single step. The size of the code is also being reworked, as the original shellcode appears to be compiler output.
+Windows ring 0 shellcode is being crafted so that instead of DoublePulsar, the transition from ring 0 to ring 3 and running usermode payloads, directly with or without DLL, is done in a single step. The size of the code is also being reworked, as the original shellcode appears to be compiler output, in order to accomodate more complex userland payloads in the first stage.
 
 ## Resources 
 - https://zerosum0x0.blogspot.com/2017/04/doublepulsar-initial-smb-backdoor-ring.html
