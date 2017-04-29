@@ -16,6 +16,7 @@ Windows ring 0 shellcode is being crafted so that instead of DoublePulsar, the t
 
 ## Resources 
 - https://zerosum0x0.blogspot.com/2017/04/doublepulsar-initial-smb-backdoor-ring.html
+- https://countercept.com/our-thinking/analyzing-the-doublepulsar-kernel-dll-injection-technique/
 - https://www.rapid7.com/db/modules/auxiliary/scanner/smb/smb_ms17_010
 
 ### Credits
