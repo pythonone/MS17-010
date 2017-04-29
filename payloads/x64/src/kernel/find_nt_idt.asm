@@ -15,7 +15,7 @@
   shr rax, 0xc                ; strip to page size
   shl rax, 0xc
 
-_walk_page:
+_find_nt_idt_walk_page:
   sub rax, 0x1000             ; walk along page size
   mov rsi, qword [rax]
   cmp si, 0x5a4d              ; 'MZ' header
